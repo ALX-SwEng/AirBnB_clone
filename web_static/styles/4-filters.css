@@ -5,6 +5,9 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 /* Search Button style */
@@ -17,10 +20,7 @@
     border: none;
     border-radius: 4px;
     float: right;
-    margin: auto 30px ;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+    margin-right: 30px ;
 }
 
 /* Search button hover opacity */
