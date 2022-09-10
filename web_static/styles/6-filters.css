@@ -8,7 +8,7 @@
 }
 
 ul li {
-    display: block;
+    display: inline-block;
     list-style-type:none;
     position: relative;
     text-align: left;
