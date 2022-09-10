@@ -1,10 +1,8 @@
 /* Locations and Amenities class style */
 .locations, .amenities {
-    display: flex;
+    display: inline-block;
     height: 100%;
     width: 25%;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Locations border */
@@ -21,4 +19,12 @@
 .locations h4, .amenities h4{
     font-weight: 400;
     font-size: 14px;
+}
+
+/* Header box sizing */
+.filters h3,
+.filters h4 {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
