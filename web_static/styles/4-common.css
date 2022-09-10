@@ -1,5 +1,4 @@
 /* Common style */
-
 body{
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body{
 }
 
 /* container style */
-
 .container{
     max-width: 1000px;
     margin: 30px auto;
