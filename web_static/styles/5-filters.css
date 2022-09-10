@@ -1,8 +1,10 @@
 /* Locations and Amenities class style */
 .locations, .amenities {
-    display: inline-block;
+    display: flex;
     height: 100%;
     width: 25%;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Locations border */
