@@ -1,0 +1,14 @@
+/* Popover class style */
+.popover {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    visibility: hidden;
+    color: #FAFAFA;
+}
