@@ -1,12 +1,11 @@
 /* Locations and amenities popover menu */
 .popover {
     background-color: #FAFAFA;
-    width: auto;
+    width:inherit;
     display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     position:absolute;
-    float: left;
 }
 
 /* Locations and amenities popover hover */
@@ -25,6 +24,7 @@
 .filters li {
     margin-left: 10px;    
     list-style: none;
+    line-height: 5px;
   }
   
 /* Header 2 style */
