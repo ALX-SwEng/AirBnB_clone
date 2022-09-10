@@ -2,9 +2,7 @@
 .locations, .amenities {
     height: 100%;
     width: 25%;
-    display: flex;
-    align-items:flex-start;
-    justify-content:left;
+    display: inline-block;
 }
 
 /* Locations border */
