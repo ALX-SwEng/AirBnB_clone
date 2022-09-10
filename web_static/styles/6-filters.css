@@ -1,25 +1,37 @@
-/* Popover class style */
-.popover {
+/* Locations and amenities popover menu */
+.filters.popover {
+    background-color: #FAFAFA;
     width: 100%;
-    display: inline-block;
+    display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    background-color: #FAFAFA;
+    position: absolute;
 }
 
-ul li {
-    display: inline-block;
-    list-style-type:none;
-    position: relative;
-    text-align: left;
-    z-index: 999;
-    left: 0;
-}
-
-.popover:hover{
+/* Locations and amenities popover hover */
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover{
     display: block;	/* Display the dropdown */
 }
 
-h2 {
+/* Locations list style */
+.filters .locations ul {
+    padding: 6px 0 6px 0;
+  }
+
+  /* Locations list element margin */
+.filters .locations li {
+    margin: 0 auto 6px 3em;
+  }
+  
+  /* Amenities list element margin */
+  .filters .amenities li {
+    margin: 12px auto 12px 30px;
+  }
+  
+/* Header 2 style */
+.filters h2 {
     font-size: 16px;
-}
+    font-weight: bold;
+    margin: 12px auto 0 30px;
+  }
