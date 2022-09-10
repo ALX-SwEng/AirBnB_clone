@@ -15,14 +15,14 @@
 }
 
 /* Locations list style */
-.filters .locations ul {
+.filters .locations .amenities ul {
     padding: 6px 0 6px 0;
     visibility: hidden;
   }
 
   /* Locations list element margin */
 .filters .locations li {
-    margin: 0 auto 6px 3em;
+    margin: 0 auto 6px 30px;
     list-style: none;
   }
   
