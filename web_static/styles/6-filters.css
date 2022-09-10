@@ -16,7 +16,7 @@ ul li {
     left: 0;
 }
 
-ul li:hover{
+.popover:hover{
     display: block;	/* Display the dropdown */
 }
 
