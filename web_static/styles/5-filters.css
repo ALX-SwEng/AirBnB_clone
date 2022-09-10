@@ -2,6 +2,7 @@
 .locations, .amenities {
     height: 100%;
     width: 25%;
+    display: inline-block;
 }
 
 /* Locations border */
@@ -10,19 +11,20 @@
 }
 
 /* Header 3 style */
-.locations h3, .amenities h3{
+.filters h3 {
+    font-size: 1.17em;
     font-weight: 600;
     height: 50%;
-    padding: 5px 0 0 30px;
-}
-
-/* Header 4 style */
-.locations h4, .amenities h4{
-    font-weight: 400;
+    padding: 15.5px 0 0 30px;
+  }
+  
+  /* Header 4 style */
+  .filters h4 {
     font-size: 14px;
+    font-weight: 400;
     height: 50%;
-    padding: 2.5px 0 0 30px;
-}
+    padding: 4.5px 0 12px 30px;
+  }
 
 /* Header box sizing */
 .filters h3,
