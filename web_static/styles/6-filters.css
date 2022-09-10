@@ -1,5 +1,5 @@
 /* Locations and amenities popover menu */
-.filters.popover {
+.popover {
     background-color: #FAFAFA;
     width: 100%;
     display: none;
@@ -9,13 +9,13 @@
 }
 
 /* Locations and amenities popover hover */
-.filters .locations:hover .popover,
-.filters .amenities:hover .popover{
+.locations:hover .popover,
+.amenities:hover .popover{
     display: block;	/* Display the dropdown */
 }
 
 /* Locations list style */
-.filters .locations .amenities ul {
+.locations .amenities ul {
     padding: 6px 0 6px 0;
     visibility: hidden;
   }
