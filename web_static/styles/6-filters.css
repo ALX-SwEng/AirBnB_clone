@@ -1,5 +1,5 @@
 /* Locations and amenities popover menu */
-.popover {
+.filters .popover {
     background-color: #FAFAFA;
     width:inherit;
     display: none;
