@@ -12,10 +12,8 @@
 
 /* Header 3 style */
 .filters h3 {
-    font-size: 1.17em;
     font-weight: 600;
-    height: 50%;
-    padding: 15.5px 0 0 30px;
+    padding: 0 0 0 30px;
   }
   
   /* Header 4 style */
@@ -23,7 +21,7 @@
     font-size: 14px;
     font-weight: 400;
     height: 50%;
-    padding: 4.5px 0 12px 30px;
+    padding: 0 0 12px 30px;
   }
 
 /* Header box sizing */
