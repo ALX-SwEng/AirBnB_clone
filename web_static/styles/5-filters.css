@@ -1,6 +1,5 @@
 /* Locations and Amenities class style */
 .locations, .amenities {
-    display: inline-block;
     height: 100%;
     width: 25%;
 }
