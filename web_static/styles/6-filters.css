@@ -17,12 +17,12 @@
 /* Locations list style */
 .filters .locations ul {
     padding: 6px 0 6px 0;
+    list-style: none;
   }
 
   /* Locations list element margin */
 .filters .locations li {
     margin: 0 auto 6px 3em;
-    list-style: none;
   }
   
   /* Amenities list element margin */
