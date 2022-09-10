@@ -5,7 +5,8 @@
     display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    position: relative;
+    position:absolute;
+    float: left;
 }
 
 /* Locations and amenities popover hover */
