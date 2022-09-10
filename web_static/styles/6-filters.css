@@ -21,8 +21,7 @@
   }
 
   /* List element margin */
-.filters li {
-    margin-left: 10px;    
+.filters li {  
     list-style: none;
     line-height: 20px;
     text-align: left;
@@ -32,6 +31,5 @@
 .filters h2 {
     font-size: 16px;
     font-weight: bold;
-    margin: 10px auto 0 10px;
     line-height: 25px;
   }
