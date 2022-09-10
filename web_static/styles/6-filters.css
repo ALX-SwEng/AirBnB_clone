@@ -17,17 +17,19 @@
 /* Locations list style */
 .filters .locations ul {
     padding: 6px 0 6px 0;
-    list-style: none;
+    visibility: hidden;
   }
 
   /* Locations list element margin */
 .filters .locations li {
     margin: 0 auto 6px 3em;
+    list-style: none;
   }
   
   /* Amenities list element margin */
   .filters .amenities li {
     margin: 12px auto 12px 30px;
+    list-style: none;
   }
   
 /* Header 2 style */
