@@ -1,5 +1,6 @@
 /* Locations and Amenities class style */
-.locations, .amenities {
+.locations, 
+.amenities {
     height: 100%;
     width: 25%;
     display: inline-block;
@@ -10,17 +11,27 @@
     border-right: 1px solid #DDDDDD;
 }
 
+/* Header box sizing */
+.filters h2,
+.filters h3,
+.filters h4 {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* Header 3 style */
 .filters h3 {
     font-weight: 600;
-    line-height:0%;
-    padding: 10px 0 0 30px;
+    font-size: 1.17em;
+    height: 50%;
+    padding: 15.5px 0 0 30px;
   }
   
   /* Header 4 style */
   .filters h4 {
     font-size: 14px;
     font-weight: 400;
-    line-height:0%;
-    padding: 5px 0 10px 30px;
+    height: 50%;
+    padding: 4.5px 0 12px 30px;
   }
