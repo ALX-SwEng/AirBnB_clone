@@ -1,7 +1,7 @@
 /* Locations and amenities popover menu */
 .popover {
     background-color: #FAFAFA;
-    width: 100%;
+    width: auto;
     display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -16,19 +16,13 @@
 
 /* Locations list style */
 .locations .amenities ul {
-    padding: 6px 0 6px 0;
+    margin-top: 5px;
     visibility: hidden;
   }
 
-  /* Locations list element margin */
-.filters .locations li {
-    margin: 0 auto 6px 30px;
-    list-style: none;
-  }
-  
-  /* Amenities list element margin */
-  .filters .amenities li {
-    margin: 12px auto 12px 30px;
+  /* List element margin */
+.filters li {
+    margin-left: 30px;    
     list-style: none;
   }
   
