@@ -7,7 +7,19 @@
     background-color: #FAFAFA;
 }
 
-ul {
-    display: inline;
-    list-style-type:disc;
+ul li {
+    display: inline-block;
+    list-style-type:none;
+    position: relative;
+    text-align: left;
+    z-index: 999;
+    left: 0;
+}
+
+ul li:hover{
+    display: block;	/* Display the dropdown */
+}
+
+h2 {
+    font-size: 16px;
 }
