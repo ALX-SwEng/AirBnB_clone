@@ -13,14 +13,14 @@
 /* Header 3 style */
 .filters h3 {
     font-weight: 600;
-    padding: 0 0 0 30px;
     line-height:0%;
+    padding: 0 0 0 30px;
   }
   
   /* Header 4 style */
   .filters h4 {
     font-size: 14px;
     font-weight: 400;
-    height: 50%;
+    line-height:0%;
     padding: 0 0 12px 30px;
   }
