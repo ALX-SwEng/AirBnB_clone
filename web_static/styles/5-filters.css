@@ -1,0 +1,21 @@
+/* Locations and Amenities class style */
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+}
+
+/* Locations border */
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+/* Header 3 style */
+.locations h3, .amenities h3{
+    font-weight: 600;
+}
+
+/* Header 4 style */
+.locations h4, .amenities h4{
+    font-weight: 400;
+    font-size: 14px;
+}
