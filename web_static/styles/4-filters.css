@@ -6,7 +6,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content:center;
 }
 
@@ -19,7 +19,6 @@
     width: 20%;
     border: none;
     border-radius: 4px;
-    float: right;
     margin-right: 30px ;
 }
 
