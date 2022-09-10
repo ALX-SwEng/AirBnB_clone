@@ -1,7 +1,7 @@
 /* Locations and amenities popover menu */
 .filters .popover {
     background-color: #FAFAFA;
-    width:100%;
+    width:20%;
     display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
