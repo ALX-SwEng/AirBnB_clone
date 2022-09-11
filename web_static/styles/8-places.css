@@ -5,7 +5,11 @@
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    margin: 0 0 auto;
+    display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	position: absolute;
+    border-radius: 100%;
 }
 
 .places  .information {
