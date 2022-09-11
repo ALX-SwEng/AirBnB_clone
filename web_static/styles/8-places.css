@@ -11,6 +11,9 @@
 	position: absolute;
     border-radius: 100%;
     float: right;
+    right: 0;
+	line-height: 60px;
+	padding: 5px;
 }
 
 .places  .information {
