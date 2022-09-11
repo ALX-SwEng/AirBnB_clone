@@ -10,6 +10,7 @@
 	align-self: flex-end;
 	position: absolute;
     border-radius: 100%;
+    float: right;
 }
 
 .places  .information {
