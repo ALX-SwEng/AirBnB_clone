@@ -1,45 +1,114 @@
-
-.places .price_by_night {
-    color: #FF5A5F;
-    border: 4px rounded #FF5A5F;
-    min-width: 60px;
-    height: 60px;
-    font-size: 30px;
-    display: flex;
+.places {
+	display: flex;
 	justify-content: center;
-	align-self: flex-end;
-	position: absolute;
-    border-radius: 100%;
-    float: right;
-	line-height: 60px;
-	padding: 5px;
+	flex-wrap: wrap;
+	margin: 45px auto;
+	text-align: center;
 }
 
-.places  .information {
-    height: 80px;
-    border-bottom: 1px solid #DDDDDD;
-    border-top: 1px solid #DDDDDD;
+article {
+	display: flex;
+	width: 390px;
+	flex: none;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
 }
 
-.max_guest {
-    width: 100px;
+.headline {
+	display: flex;
+	flex-direction: row;
+	position: relative;
 
+	height: 80px;	
+	width: 100%;
 }
 
-.number_rooms {
-    width: 100px;
-    
+.price_by_night {
+
+	
+
+ 
 }
 
-.number_bathrooms {
-    width: 100px;
-    
+.information {
+	display: block;
+	height: 80px;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+
+	padding-top: 5px;
+	padding-bottom: 12px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.places .user {
-    font-weight: bold;
+.max_guest, .number_rooms, .number_bathrooms {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin: 0px auto;
 }
 
-.places .description {
-    
+.user {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+.description {
+	text-align: left;
+}
+
+h1 {
+	display: block;
+	text-align: left;
+	width: 95%;
+	display: block;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+
+article h2 {
+	font-size: 30px;
+	margin: 10px auto;
+	padding: 0px;
+}
+
+.guest_icon {
+	display: inline-block;
+	background-image: url("../images/icon_group.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+}
+
+.bed_icon {
+	display: inline-block;
+	background-image: url("../images/icon_bed.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.bath_icon {
+	display: inline-block;
+	background-image: url("../images/icon_bath.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 50px;
+    height: 50px;
 }
