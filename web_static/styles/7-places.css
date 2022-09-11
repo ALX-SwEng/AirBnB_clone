@@ -33,7 +33,4 @@ article h2{
   font-size: 30px;
   padding: 0px;
   max-width: auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-      box-sizing: border-box;
  }
