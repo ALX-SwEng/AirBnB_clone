@@ -1,13 +1,14 @@
 /* Locations and Amenities class style */
-.locations, 
-.amenities {
+.filters .locations, 
+.filters .amenities {
     height: 100%;
     width: 25%;
     display: inline-block;
+    position: relative;
 }
 
 /* Locations border */
-.locations {
+.filters .locations {
     border-right: 1px solid #DDDDDD;
 }
 

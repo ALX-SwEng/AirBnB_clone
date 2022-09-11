@@ -1,7 +1,7 @@
 /* Locations and amenities popover menu */
 .filters .popover {
     background-color: #FAFAFA;
-    width: 18%;
+    width: 100%;
     display: none;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -9,21 +9,14 @@
 }
 
 /* Locations and amenities popover hover */
-.locations:hover .popover,
-.amenities:hover .popover{
+.filters.locations:hover .popover,
+.filters .amenities:hover .popover{
     display: block;	/* Display the dropdown */
 }
 
 /* Locations list style */
-.locations .amenities ul {
-    visibility: hidden;
+.filters .locations ul {
     padding: 6px 0 6px 0;
-  }
-
-  /* List element margin */
-.filters li {  
-    list-style: none;
-    line-height: 25px;
   }
   
 /* Locations list element margin */
