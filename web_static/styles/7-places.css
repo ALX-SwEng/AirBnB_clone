@@ -1,13 +1,13 @@
 /* Places style */
 .places {
 	display: block;
-	margin: 45px auto;
+	margin: 25px auto;
 	text-align: center;
 }
 
 /* Article style */
  .places article {
-    display:inline-block;
+    display: inline-block;
     width: 390px;
     padding: 20px;
     margin: 20px;
@@ -32,7 +32,7 @@
 article h2{
   font-size: 30px;
   padding: 0px;
-  max-width: auto;
+  
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
       box-sizing: border-box;
