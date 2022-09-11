@@ -9,7 +9,7 @@
 }
 
 /* Locations and amenities popover hover */
-.filters.locations:hover .popover,
+.filters .locations:hover .popover,
 .filters .amenities:hover .popover{
     display: block;	/* Display the dropdown */
 }
