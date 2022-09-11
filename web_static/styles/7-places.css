@@ -1,11 +1,12 @@
 /* Places style */
  .places article {
-    display: inline-block;
+    display: flex;
     width: 390px;
     padding: 20px;
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
+    position: relative;
     align-items: center;
     justify-content: center;
  }
