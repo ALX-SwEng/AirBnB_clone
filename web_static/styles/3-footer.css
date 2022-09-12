@@ -6,7 +6,6 @@ footer{
     bottom: 0;
     background-color: white;
     border-top: 1px solid #CCCCCC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	text-align: center;
+	line-height: 30px;
 }
