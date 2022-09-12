@@ -25,14 +25,16 @@
 .filters h3 {
     font-weight: 600;
     font-size: 1.17em;
-    height: 50%;
-    padding: 15.5px 0 0 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 0px;
   }
   
   /* Header 4 style */
   .filters h4 {
     font-size: 14px;
     font-weight: 400;
-    height: 50%;
-    padding: 4.5px 0 12px 30px;
+    line-height: 0px;
+    padding-left: 30px;
+    padding-bottom: 5px;
   }

@@ -22,11 +22,13 @@
 /* Locations list element margin */
 .filters .locations li {
   margin: 0 auto 6px 3em;
+  list-style: none;
 }
 
 /* Amenities list element margin */
 .filters .amenities li {
   margin: 12px auto 12px 30px;
+  list-style: none;
 }
 
 /* Header 2 style */
@@ -34,4 +36,6 @@
     font-size: 16px;
     font-weight: bold;
     margin: 12px auto 0 30px;
+    padding-top: 15px;
+    line-height: 0px;
   }
