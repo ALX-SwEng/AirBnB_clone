@@ -35,7 +35,7 @@
 }
 
 /* style for guest icon */
-.guests_icon {
+.beds_icon {
 	display: inline-block;
 	background-image: url("../images/icon_group.png");
 	background-repeat: no-repeat;
