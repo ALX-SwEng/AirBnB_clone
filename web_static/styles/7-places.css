@@ -1,8 +1,8 @@
 /* Places style */
 .places {
-	display: flex;
-	margin: 15px auto;
-	text-align: center;
+  display: flex;
+  margin: 15px auto;
+  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
   }
@@ -11,11 +11,10 @@
 .places h1 {
   display: block;
   width: 100%;
-	margin-top: 0px;
-	margin-left: 20px;
-	margin-bottom: 5px;
-	
-	text-align: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  text-align: left;
   font-size: 30px;
 }
 
