@@ -4,7 +4,8 @@
 	height: 60px;	
 	min-width: 60%;
 	color: #FF5A5F;
-	border: 4px rounded #FF5A5F;
+	border: 4px solid #FF5A5F;
+	border-radius:50%;
 	font-size: 30px
 }
 
@@ -33,7 +34,7 @@
 /* style for guest icon */
 .guest_icon {
 	display: inline-block;
-	background-image: url("images/icon_group.png");
+	background-image: url("../images/icon_group.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 50px;
@@ -43,7 +44,7 @@
 /* style for bedroom icon */
 .bed_icon {
 	display: inline-block;
-	background-image: url("images/icon_bed.png");
+	background-image: url("../images/icon_bed.png");
 	background-repeat: no-repeat;
 	background-position: center;
     width: 50px;
@@ -53,7 +54,7 @@
 /* style for bathroom icon */
 .bath_icon {
 	display: inline-block;
-	background-image: url("images/icon_bath.png");
+	background-image: url("../images/icon_bath.png");
 	background-repeat: no-repeat;
 	background-position: center;
     width: 50px;
